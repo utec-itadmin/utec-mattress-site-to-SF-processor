@@ -1,0 +1,31 @@
+# Streamlit secrets - NEVER commit this file
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+temp/
+
+# CSV data files (may contain sensitive customer information)
+*.csv
+!requirements.txt
